@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Caudex', serif;
+    background-color: #252525;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* effect */
+.container .effect{
+    position: absolute;
+    top: 8rem;
+    filter: blur(50px);
+    right: -20rem;
+}
+
+.container{
+    color: #fff;
+    position: absolute;
+    top: 0;
+   
+}
+.container .effect1{
+    position: absolute;
+    top: 40rem;
+    filter: blur(80px);
+    left: 10rem;
+}
+
+/* ----- */
+
+.container .text h3{
+    position: absolute;
+    left: 5.8rem;
+    border-bottom: 1px solid #eee;
+}
+
+.container .text p{
+    position: absolute;
+    width: 300px;
+    bottom: 20rem;
+    text-align: justify;
+    text-indent: 50px;
+    left: 90px;
+}
+.container .text h3{
+    padding-bottom: 23px;
+}
+
+.container .logo{
+    margin: 90px;
+}
+
+.container .awalan{
+    position: absolute;
+    left: 60rem;
+    width: 400px;
+   
+}
+
+.container .awalan h3{
+    letter-spacing: 4px;
+    font-size: 32px;
+    text-shadow: red -2px 1px,
+    cyan 2px 2px,
+    yellow 2px 3px;
+}
+
+.container .awalan h3 span{
+    color: yellow;
+}
+
+.container .gas {
+    position: absolute;
+    left: 67rem;
+    top: 19rem;
+    width: 200px;
+}
+
+.container .gas h3{
+    letter-spacing: 5px;
+    font-size:24px;
+}
+
+.container .gas h3 a{
+    text-decoration: none;
+    padding : 25px 25px 25px 25px;
+    color: #fff;
+    text-shadow: cyan -2px 1px,
+    green 2px 2px,
+    black 2px 3px;
+    border-bottom: 1px solid #fff;
+}
+
+.container .gas h3 a:hover{
+    border-bottom: 2px solid #53BF9D;
+    color: #000;
+    transition: 0.5s;
+
+}
+
+
+.container .image{
+    position: relative;
+    left: 420px;
+    bottom: 80px;
+    mix-blend-mode: hard-light;
+}
+
+.container .blurrr{
+    position: absolute;
+    background: linear-gradient(270deg, rgba(66, 66, 66, 0.49) 0%, rgba(66, 66, 66, 0.4753) 76.04%, rgba(66, 66, 66, 0) 100%);
+    backdrop-filter: blur(10px);
+    top: 31rem;
+    width: 300%;
+    left: 5rem;
+    padding-top: 80px;
+    padding-bottom:80px;
+    height: 50px;
+}
+
+.container .blurrr .text-1{
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+    font-size: 26px;
+    width: 300px;
+}
+
+.container .blurrr .text-2{
+    position: relative;
+    bottom: 5px;
+    left: 60px;
+    width: 300px;
+}
+.container .blurrr .text-2 span{
+    font-size: 24px;
+}
+
+.container .blurrr .text-3{
+    position: relative;
+    bottom: 55px;
+    left: 15rem;
+    width: 300px;
+}
+.container .blurrr .text-3 span{
+    font-size: 24px;
+}
+
+.container .blurrr .text-4{
+    position: relative;
+    bottom: 106px;
+    left: 55rem;
+    width: 300px;
+}
+.container .blurrr .text-4 span{
+    font-size: 24px;
+}
+
+.container .blurrr .text-5{
+    position: relative;
+    bottom: 160px;
+    left: 74rem;
+    width: 200px;
+}
+.container .blurrr .text-5 span{
+    font-size: 24px;
+}
+
+.container-content{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+}
+
+.container-content h2{
+    position: relative;
+    top: 25rem;
+    margin: 130px;
+}
+
+.container-content .histori article{
+    width: 1000px;
+    position: absolute;
+    top: 30rem;
+    margin: 130px;
+    text-indent: 50px;
+    text-align: justify;
+}

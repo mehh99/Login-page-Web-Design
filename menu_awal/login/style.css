@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: url(./assets/pexels-aleksandar-pasaric-1694000\ 1.png);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img .gambar1{
+    mix-blend-mode: screen;
+    position: relative;
+    top: 1px;
+    left: 160px;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.container {
+	border-radius: 130px 1px 130px 5px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 468px;
+    padding-top: 30px;
+    margin: auto;
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #041C32;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 32px;
+    border-bottom: 3px solid #413F42;
+    text-transform: uppercase;
+    color: #8FD6E1;
+    letter-spacing: 5px;
+    top: -10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	text-align: center;
+    padding-top: 50px;
+}
+
+.checkbox{
+    position: absolute;
+    right: 47%;
+}
+.checkbox:hover{
+    transition: 0.5s;
+}
+.rememberPassword{
+    color: #85CFCB;
+    font-size: 12px;
+    position: absolute;
+    left: 70px;
+    top: 150px;
+}
+
+input {
+	position: relative;
+	top: -30px;
+	border: none;
+	padding: 20px 1px 16px 1px;
+	margin: 5px 0;
+	width: 280px;
+	background:none;
+	color: #ECDBBA;
+    outline: none;
+    background:#04293A;
+    border-radius: 5px
+}
+
+.form-container{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.form-container input::placeholder{
+	color: #ECDBBA;
+}
+
+.form-container .button a {
+	width: 100%;
+    padding: 20px 80px 20px 80px;
+    height: 50%;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    top: 50%;
+    left: 5px;
+    color: #4ca1af;
+    background: #115173;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 700;
+	position: relative;
+	top: 30px;
+	text-transform: uppercase;
+}
+
+.form-container .button a:hover{
+	background: #21E6C1;
+    color: #e9f4fb;
+    transition: 0.5s;
+    box-shadow: 0px 0px 8px #85CFCB;
+	text-decoration: none;
+}
+
+.l-password a{
+    position: relative;
+    top: 55px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #51557E;
+}
+
+
+
+form .dont-akun{
+	position: relative;
+	top: 90px;
+	color: #85CFCB;
+    font-size: 14px;
+}
+
+.daftar a{
+	position: relative;
+	top: 90px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+form .daftar a{
+	font-size: 12px;
+    color: #51557E;
+}
+
+.container-media{
+	padding-top: 20px;
+}
+
+.an-login span{
+	position: relative;
+	top: 40px;
+	color: #85CFCB;
+    font-size: 14px;
+}
+
+.an-login{
+    position: relative;
+    top: 80px;
+    color: #85CFCB;
+}
+
+form .social-media a{
+	position: relative;
+	top: 130px;
+}
+
+.form-container a:hover{
+	color: #EAE7AF;
+	text-decoration: underline;
+}
+
+.social-media a:hover{
+    transition: .5s; 
+    top: 120px;
+}
+/* cosmic */
+.cosmic{
+    position: absolute;
+    filter: blur(50px);
+    transform: rotate(45deg);
+    top: 0;
+    right: 260px;
+}
+.cosmickiri{
+    position: absolute;
+    top: 11rem;
+    filter: blur(50px);
+    transform: rotate(30deg);
+}

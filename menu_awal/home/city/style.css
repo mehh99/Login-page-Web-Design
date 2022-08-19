@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1B2430;
+    
+}
+
+.container {
+    margin: 25px;
+    background: #1B2430;
+    height: 100vh;
+    width: 10%;
+    
+}
+
+.container h2{
+    margin: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 300px;
+    padding-bottom: 25px;
+    
+}
+
+.container h4{
+    margin: 25px;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.container .awal p{
+    margin: 25px;
+    width: 50%;
+    text-align: justify;
+    color: #fff;
+    font-size: 16px;
+}
+
+.container .awal h4 span{
+    color: #53BF9D;
+}
+
+.explore-history a {
+    position: relative;
+    top: 2.5rem;
+    list-style: none;
+    display: inline;
+    margin: 0 25px 0 25px;
+    padding: 25px 55px 25px 55px;
+    background-color: #4CACBC;
+    border-radius: 30px 0 30px 0;
+}
+.explore-history .explore a{
+    text-decoration: none;
+    color: #F9F9F9;
+    margin : 25px;
+    
+}   
+
+
+.hstory a{
+    position: relative;
+    top: 1rem;
+    left: 14rem;
+    list-style: none;
+    display: inline;
+    margin: 0 25px 0 25px;
+    padding: 25px 55px 25px 55px;
+    border-radius: 30px 0 30px 0;
+    color: #53BF9D;
+    background-color: #1B2430;
+    height: 100vh;;
+    text-decoration: none;
+    border: 1px solid #4CACBC;
+}
+
+
+
+.container .awal{
+    position: absolute;
+    width: 50%;
+    bottom: 12rem;
+    right: 40rem;
+}
+
+.container .side-container{
+    position: absolute;
+    right: 9rem;
+    padding-right: 30px;
+    top: 3rem;
+}
+
+.container .side-container img{
+    border-radius: 10px 10px 10px 230px;
+    box-shadow: 0 0 10px #4CACBC;
+}
+
+.container .effect{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+}
+
+
+.container .effect img{
+    position: relative;
+    filter:blur(500px);
+    left: 650px;
+    width: 500px;
+}
+
+.container .effect-bawah{
+    position: relative;
+    filter:blur(90px);
+    
+}
+
+.container .effect-2{
+    position: relative;
+    filter:blur(90px);
+    
+}
+
+.container .effect-3{
+    position: relative;
+    bottom: 28rem;
+    left: 38rem;
+    filter:blur(90px);
+    
+}
+.container .effect-4{
+    position: absolute;
+    top: 12rem;
+    left: 60rem;
+    filter:blur(90px);
+    
+}
+
+/* button effect */
+
+.explore-history .explore a:hover{
+    background: #53BF9D;
+    color: #000;
+    transition: 0.5s;
+    box-shadow: 0px 0px 8px #85CFCB;
+}
+.hstory a:hover{
+    border: 1px solid #53BF9D;
+    color: #fff;
+    transition: 0.5s;
+    box-shadow: 0px 0px 8px #85CFCB;
+}
+
+/* content */
+
+.container-content{
+    position: absolute;
+}
+
+.container-content .istana-siak h3{
+    margin: 25px;
+    color: #fff;
+    text-shadow: 0 0 10px #4CACBC;
+}
+
+.container-content .istana-siak{
+    position: relative;
+    top: 30rem;
+    margin: 50px;
+}
+
+.container-content .istana-siak img{
+    border-radius: 5% 50% 5% 50%;
+    margin: 30px;
+    float: left;
+    box-shadow: 0 0 10px #4CACBC;
+}
+
+.container-content .istana-siak p{
+    color: #fff;
+    width: 700px;
+    text-align: justify;
+    font-size: 14px;
+    text-indent: 50px;
+}
+
+/* taman */
+
+.container-content .taman h3{
+
+    color: #fff;
+    text-shadow: 0 0 13px #4CACBC;
+}
+
+.container-content .taman{
+    margin: 25px;
+    color: #fff;
+    position: relative;
+    left: 48rem;
+    width: 200px;
+    top: 30rem;
+}
+
+.container-content .taman img{
+    border-radius: 5% 50% 5% 50%;
+    float: left;
+    margin: 30px;
+    box-shadow: 0 0 10px #4CACBC;
+}
+.container-content .taman p{
+    width: 700px;
+    text-align: justify;
+    font-size: 14px;
+    text-indent: 50px;
+}
+
+
+/* danau */
+.container-content .danau h3{
+
+    color: #fff;
+    text-shadow: 0 0 13px #4CACBC;
+}
+.container-content .danau{
+    margin: 25px;
+    color: #fff;
+    position: relative;
+    width: 700px;
+    top: 30rem;
+}
+
+.container-content .danau img{
+    border-radius: 5% 50% 5% 50%;
+    float: left;
+    margin: 30px;
+    box-shadow: 0 0 10px #4CACBC;
+}
+.container-content .danau p{
+    width: 700px;
+    text-align: justify;
+    font-size: 14px;
+    text-indent: 50px;
+}
+.container-content .danau h3{
+    margin: 25px;
+    color: #fff;
+}
+
+/* balai */
+.container-content .balai h3{
+
+    color: #fff;
+    text-shadow: 0 0 13px #4CACBC;
+}
+.container-content .balai{
+    margin: 25px;
+    color: #fff;
+    position: relative;
+    left: 48rem;
+    width: 200px;
+    top: 30rem;
+}
+
+.container-content .balai img{
+    border-radius: 5% 50% 5% 50%;
+    float: left;
+    margin: 30px;
+    box-shadow: 0 0 10px #4CACBC;
+}
+.container-content .balai p{
+    width: 700px;
+    text-align: justify;
+    font-size: 14px;
+    text-indent: 50px;
+}
+
+/* effect content */
+
+.container-content .effect-content{
+    position: absolute;
+    top: 45rem;
+    left: 0;
+    filter:blur(50px);
+}

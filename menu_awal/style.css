@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background: linear-gradient(270deg, #AD5389 0%, #3C1053 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    top: 0;
+    left: 0;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 8px 20px;
+    color: #DFF6FF;
+    border-radius:  50px;
+    background-color: #06283D;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+header ul li a:hover{
+    background-color: #4C3575;
+    color: #D6D5A8;
+    box-shadow: 0px 0px 8px #FBF8F1;
+    transition: 0.5s;
+}
+
+.content{
+    position: absolute;
+    width: 500px;
+    font-size: 46px;
+    margin: 4px 3px 4px 5px;
+    padding-left: 60px;
+    top: 130px;
+    letter-spacing: 3px;
+    color : #F2EBE9;
+    text-align: center;
+}
+.content p{
+    padding-top: 135px;
+    position: absolute;
+    display: flex;
+    top: -80px;
+}
+
+.content span a{
+    background-color: #06283D;
+    text-align: center;
+    position: relative;
+    top: 290px;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    padding: 20px 90px 30px 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration: none;
+    margin-left: 35px;
+    text-transform: uppercase;
+}
+.content span a:hover{
+    background: #ad5389;
+    color: #D6D5A8;
+    box-shadow: 0px 0px 8px #FBF8F1;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.gambar{
+    padding: 10px 30px 10px;
+    position: relative;
+    display: inline-block;
+    bottom: -100px;
+    top: -50px;
+    left: 690px;
+    mix-blend-mode: hard-light;
+}
+
+/* planet */
+
+.planet1{
+    position: absolute;
+    top: 20rem;
+    mix-blend-mode: hard-light;
+    right: 5rem;
+
+}
+

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(90deg, #FFFFFF 94.09%, #3B8D99 94.1%);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    position: relative;
+    width: 100%;
+}
+header{
+    position: relative;
+    margin: 30px;
+    display: flex;
+    width: 96%;
+}
+header h2{
+    position: relative;
+    letter-spacing: 3px;
+}
+
+header h3{
+    position: relative;
+    left: 1100px;
+    font-weight: normal;
+    padding: 15px;
+}
+
+header h3 a{
+    text-decoration: none;
+    color: #4C3A51;
+    padding: 10px 30px 10px 30px;
+    border-bottom: 3px solid #3BACB6;
+}
+
+
+/* animasi button */
+
+
+header h3 a:hover{
+    background: #3B8D99;
+    color: #B3E8E5;
+    box-shadow: 0px 0px 8px #E3FCBF;
+    transition: 0.5s;
+    font-weight: bold;
+    animation: pulsate 1s ease-in-out; 
+    border: none;
+}
+@keyframes pulsate{
+    0%{
+        box-shadow: 0 0 5px #5ddcff,
+                    0 0 10px #3B8D99;
+    }
+}
+
+
+.foto{
+    position: relative;
+    margin: 30px;
+    left: 120px;
+    display: inline-block;
+    bottom: 30px;
+}
+.foto img{
+    border-radius: 100% ;
+    border: 3px solid #3B8D99;
+    margin-top: 30px;
+}
+
+.foto p{
+    position: relative;
+    bottom: 110px;
+    left: 150px;
+    font-size: 32px;
+    width: 300px;
+    letter-spacing: 3px;
+    
+}
+
+.foto article p{
+    letter-spacing: 1px;
+}
+
+.foto p span{
+
+    position: relative;
+    font-size: 24px;
+    color: #D8D2CB;
+    bottom: 8px;
+}
+.foto article p{
+    font-size: 16px;
+    width: 400px;
+}
+
+
+.media{
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+.media img{
+    position: relative;
+    top: 50px;
+}
+
+
+.social-media a img{
+    position: relative;
+    left: 25px;
+    padding: 8px;
+}
+
+.batas{
+    position: relative;
+    width: 73%;
+    bottom: 100px;
+    left: 100px;
+    border-top: 2px solid #3B8D99;
+}
+
+.content{
+    width: 1296px;
+}
+
+.biodata{
+    position: relative;
+    width: 450px;
+    left: 6.2rem;
+    bottom: 70px;
+    box-shadow: 1px 1px 8px #9DD6DF;
+    backdrop-filter: blur(10px);
+
+}
+
+.biodata ul,.biodata h2{
+    position: relative;
+    list-style: none;
+    background: transparent;
+    border-radius: 10px;
+    
+}
+
+.image-effect{
+    position: absolute;
+    top: 22rem;
+    right: 70rem;
+    filter: blur(120px);
+}
+
+.biodata h2{
+    margin: 15px;
+    padding-left: 15px  ;
+    padding-top: 15px;
+}
+.biodata ul li{
+    margin: 8px;
+    padding-left: 15px;
+    padding-bottom: 12px;
+}
+
+.gambar-ilus{
+    position: absolute;
+    top: 3rem;
+    right: 29rem;
+}

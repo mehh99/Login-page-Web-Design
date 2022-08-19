@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #FBC800;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    width: 100%;
+}
+.container .judul{
+    position: absolute;
+    margin: 20px;
+    top: -30px;
+    mix-blend-mode: hard-light;
+}
+
+.navbar-container{
+    position: absolute;
+    background: #FAF4B7;
+    right: 30px;
+    top: 30px;
+    border-radius:  10px 10px 10px 80px;
+    height: 65vh;
+    width: 900px;
+}
+
+.navbar{
+    border-bottom: 2px solid #839AA8;
+    margin: 30px;
+}
+
+
+
+.ph-to img{
+    position: absolute;
+    mix-blend-mode: hard-light  ;
+    top: 4rem;
+    left: -2rem;
+    
+}
+
+.side{
+    position: relative;
+    float: right;
+    bottom: 25rem;
+    mix-blend-mode: hard-light;
+}
+
+
+.navbar ul li{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    bottom: 10px;
+    left: 100px;
+}
+.navbar ul li a{
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 5px;
+    text-transform: uppercase;   
+    font-weight: bold;
+}
+
+
+.navbar ul li a:hover{
+    color: #FFA500;
+
+    border-bottom: 2px solid #990000;
+    animation: pulsate 1s ease-in-out; 
+}
+@keyframes pulsate{
+    0%{
+        box-shadow: 0 0 3px #990000,
+                    0 0 6px #990000;
+    }
+}
+
+.content{
+    width: 500px;
+    text-align:justify;
+}
+.content article{
+    color: #000000;
+    margin-top: 10px;
+    text-indent: 5%;
+    margin: 35px;
+}
+
+
+
+/* content paling bawah */
+
+.artikel1{
+    position: absolute;
+    bottom: 0;
+    width: 800px;
+    height: 10vh;
+}
+
+.artikel1 article{
+    position: relative;
+    text-align: justify;
+
+}
